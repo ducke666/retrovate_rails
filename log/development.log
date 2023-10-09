@@ -878,3 +878,38 @@ Processing by BlogsController#index as HTML
 Completed 200 OK in 29ms (Views: 17.0ms | ActiveRecord: 9.9ms | Allocations: 16898)
 
 
+Started GET "/" for ::1 at 2023-10-09 20:35:11 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/elliotduck/.rvm/gems/ruby-3.2.2/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/elliotduck/.rvm/gems/ruby-3.2.2/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 489)
+Completed 200 OK in 15ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4305)
+
+
+Started GET "/pages/home" for ::1 at 2023-10-09 20:35:17 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 89.3ms | Allocations: 33555)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms | Allocations: 34517)
+
+
+Started GET "/pages/home" for ::1 at 2023-10-09 20:35:53 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2699)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3515)
+
+
+Started GET "/pages/home" for ::1 at 2023-10-09 20:35:59 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2657)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3467)
+
+
